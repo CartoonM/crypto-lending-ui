@@ -73,16 +73,9 @@ export const LendingCard: React.FC<LendingCardProps> = ({
   );
 
   useEffect(() => {
-    if (
-      // !address ||
-      !contract ||
-      !provider
-    ) {
+    if (!address || !contract || !provider) {
       return;
     }
-
-    // for testing display balances
-    const address = "0xb9e1dccf7f07d6d6e853a4ab1ba610fe876c3789";
 
     tryCatchAsync(() => loadAssets(address), console.error);
   }, [address, contract, provider]);
