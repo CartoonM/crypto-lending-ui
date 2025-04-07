@@ -4,25 +4,19 @@ This project uses [Vite](https://vitejs.dev/) as the build tool and TypeScript f
 
 ## Available Scripts
 
-To run these commands, use `npm run <command>` or `yarn <command>` depending on your package manager.
+To run these commands, use `npm run <command>` depending on your package manager.
 
 ```bash
 # Start the development server
 npm run dev
-# or
-yarn dev
 ```
 
 ```bash
 # Build the project for production
 npm run build
-# or
-yarn build
 ```
 
 ```bash
 # Preview the production build locally
 npm run preview
-# or
-yarn preview
 ```
