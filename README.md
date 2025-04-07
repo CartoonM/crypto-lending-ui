@@ -1,4 +1,4 @@
-# React Project
+# Crypto Lending UI
 
 This project uses [Vite](https://vitejs.dev/) as the build tool and TypeScript for type safety.
 
